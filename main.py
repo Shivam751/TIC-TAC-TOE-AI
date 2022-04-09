@@ -3,8 +3,6 @@ import random
 from tkinter import *
 from tkinter import messagebox
 
-from torch import channel_shuffle
-
 COLOR = {'O': 'deep sky blue', 'X': 'lawn green'}
 
 def button(frame):
