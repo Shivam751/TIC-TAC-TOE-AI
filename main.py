@@ -24,8 +24,10 @@ def reset_game():
             board[row][col]['state'] = NORMAL
     a = random.choice(['O', 'X'])
     current_player = "AI"
+    print("AI starts with ", a)
     scores[a] = 1
     change_mark()
+    print("Human starts with ", a)
     scores[a] = -1
     change_mark()
     board[1][1].config(text=a, state=DISABLED, disabledforeground=COLOR[a])
@@ -137,16 +139,22 @@ global current_player
 current_player = input("Start with: HUMAN OR AI: ")
 scores={'tie':0}
 if(current_player == "HUMAN"):
+    print("Human starts with ", a)
     scores[a] = -1
     if(a=='O'):
+        print("AI starts with X")
         scores['X'] = 1
     else:
+        print("AI starts with O")
         scores['O'] = 1
 else:
+    print("AI starts with ", a)
     scores[a] = 1
     if(a=='O'):
+        print("Human starts with X")
         scores['X'] = -1
     else:
+        print("Human starts with O")
         scores['O'] = -1
 board = [[], [], []]
 
