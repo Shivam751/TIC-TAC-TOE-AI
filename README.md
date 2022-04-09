@@ -8,5 +8,5 @@ Implemented an AI bot for playing TIC-TAC-TOE using the mini-max algorithm.
 4. Give desired role for starting the game HUMAN/AI.
 
 ## Screenshot of application
-![Tic Tac Toe AI](https://github.com/Shivam751/TIC-TAC-TOE-AI/blob/main/TIC TAC TOE AI.png?raw=true)
+![TIC TAC TOE AI](/TIC%20TAC%20TOE%20AI.png)
 
